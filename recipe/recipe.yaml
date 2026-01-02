@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tauloa
-  version: "1.1.9"
+  version: "1.1.10"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://tauolapp.web.cern.ch/tauolapp/resources/TAUOLA.${{ version }}/TAUOLA.${{ version }}-LHC.tar.gz
-  sha256: 4eb69f38bc0163568034f95b47d1ae461becbff9935921d57e49d3583cb3c158
+  sha256: 9a3d6c3fad02a594fd42f664db81f6b0bc2dfb11bbb670969405b2070ea26631
 
 build:
   number: 0
